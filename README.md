@@ -1,8 +1,8 @@
 <p align="center"><img src="banner.png" alt="EncryptLock" width="720"></p>
 
-<h1 align="center">Your computer is switched on. Let it earn.</h1>
+<h1 align="center">New blockchain. New era.</h1>
 
-<p align="center"><b>EncryptLock is a new blockchain where ordinary computers keep the network running and get paid in LOCK.<br>No mining rigs. No big power bills. And nobody loses their coins.</b></p>
+<p align="center"><b>Built by one developer with AI. EncryptLock is a new blockchain where ordinary computers keep the network running and get paid in LOCK.<br>No mining rigs. No big power bills. And nobody loses their coins.</b></p>
 
 <p align="center">
   <a href="https://encryptlock.pages.dev"><b>🌐 encryptlock.pages.dev</b></a>
