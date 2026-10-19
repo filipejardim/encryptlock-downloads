@@ -41,6 +41,12 @@
 - **Privacy:** [privacy.md](privacy.md)
 - **The code:** private, to protect the project from copies. Every rule is described in the white paper.
 
+## Community
+
+- 💬 Reddit: [r/EncryptLock](https://www.reddit.com/r/EncryptLock)
+- 🗣️ BitcoinTalk: [EncryptLock announcement](https://bitcointalk.org/index.php?topic=5597333.0)
+- ❓ Questions: [GitHub Discussions](https://github.com/filipejardim/encryptlock-downloads/discussions)
+
 ## Install
 
 - **Windows:** open `EncryptLock-Windows.exe`. If Windows says *"Windows protected your PC"*, click **More info → Run anyway**.
