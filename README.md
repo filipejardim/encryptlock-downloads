@@ -14,6 +14,8 @@
   <a href="https://github.com/filipejardim/encryptlock-downloads/releases/latest/download/EncryptLock-Android.apk"><b>⬇️ Download for Android</b></a>
 </p>
 
+<p align="center">⭐ <b>Like the project? Give it a star at the top of this page. It helps others find EncryptLock.</b><br>💬 Questions? <a href="https://github.com/filipejardim/encryptlock-downloads/discussions">Ask in Discussions</a></p>
+
 ---
 
 ## Why EncryptLock
