@@ -1,0 +1,8 @@
+Copyright (c) 2026 Filipe Jardim. All rights reserved.
+
+This software and its source code are private and confidential. No one may
+copy, modify, publish, distribute, sell or use any part of it without the
+written permission of the copyright holder.
+
+Third-party parts keep their own licenses (for example the Boltz swap vault
+in polygon/contracts/boltz, MIT, see polygon/contracts/boltz/LICENSE).

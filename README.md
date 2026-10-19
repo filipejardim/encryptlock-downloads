@@ -33,6 +33,12 @@
 
 **Built by one founder working with AI.** 🇵🇹
 
+## Read more
+
+- **How it works, all the rules:** [White paper](white-paper.md) (Portuguese)
+- **Privacy:** [privacy.md](privacy.md)
+- **The code:** private, to protect the project from copies. Every rule is described in the white paper.
+
 ## Install
 
 - **Windows:** open `EncryptLock-Windows.exe`. If Windows says *"Windows protected your PC"*, click **More info → Run anyway**.
