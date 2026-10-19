@@ -27,7 +27,7 @@
 | 🏦 **Sovereign Vault** | Big savings get a 7 to 365 day delay on withdrawals, so you can cancel a theft in time. |
 | 🗳️ **1 computer = 1 vote** | Checked with the PC's security chip (TPM 2.0). Cloud servers can't take over. |
 | ⚛️ **Post-quantum** | Every transaction is signed twice, once with a post-quantum signature (ML-DSA, NIST standard). |
-| 🔒 **40,000,000 LOCK, never more** | Released slowly over 30 years to the computers that keep the network alive. |
+| 📉 **Anti-inflation: 40,000,000 LOCK, never more** | 38,799,000 LOCK released over the first 30 years, halving every 5 years. Then the everlasting reserve of 800,000 LOCK: what is left halves every 30 years, so new LOCK keeps arriving in ever smaller amounts for about 1,440 years. No vote can change it. |
 
 **Full transparency:** the founder received 1% (400,000 LOCK) at the start, public on the chain since block 1. No pre-sale, no investors, no private deals.
 
