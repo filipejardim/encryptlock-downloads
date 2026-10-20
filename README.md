@@ -22,7 +22,7 @@
 
 | | |
 |---|---|
-| 💻 **Your PC earns LOCK** | Tap *"Make this computer a blockchain LockKeeper"* and leave it on. Switching off never costs you anything. |
+| 💻 **Your PC earns LOCK** | Tap *"Make this computer a blockchain LockKeeper"* and leave it on. Switching off never costs you anything. You need a Windows PC with a security chip (TPM 2.0) and **1 dollar in LOCK as a guarantee** (it stays yours). No LOCK yet? Buy it first in the app, in *Buy / Sell*, with USDC on Polygon (plus a little POL for the Polygon fee). |
 | ↩️ **Mistakes come back** | Every transfer must be accepted within 1 hour. Wrong address? The money returns by itself. |
 | 🛡️ **Theft gets stopped** | Second-device approval, daily limits and a *"Wasn't me"* button. |
 | 👨‍👩‍👧 **Your family inherits** | Choose your heirs inside the network. Your coins never die with you. |
