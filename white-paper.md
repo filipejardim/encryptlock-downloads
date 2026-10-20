@@ -32,7 +32,7 @@
 | Aceitação | **Todas** as transferências entre contas têm de ser aceites pelo recetor em **1 hora**, senão voltam automaticamente. Sem exceções (inclui QR e links) |
 | Contas | Têm de ser **registadas** na rede antes de poderem receber (registo gratuito) |
 | Tipos de conta | Pessoal e Empresa (mesma rede, mesma moeda) |
-| App | Gratuita, open source, não-custodial |
+| App | Gratuita, não-custodial; código aberto quando houver cerca de 20 LockKeepers de outras pessoas |
 | Regras de ouro | Imutáveis (secção 5.3). Correções de erros só por versões novas que cada LockKeeper escolhe instalar |
 | Teto de poder | Nenhum LockKeeper com mais de 5%; liga-se automaticamente aos **20** LockKeepers |
 | Batota | Moedas em garantia de quem faz batota são **queimadas** |
@@ -75,7 +75,7 @@ Contexto da pesquisa (outubro 2026):
 ## 3. Modelo de lançamento
 
 - **Sem empresa, sem venda de moedas, sem leilões pagos, sem bolsa custodial.** Assim o projeto fica, em grande parte, fora das licenças do MiCA.
-- O código é open source no GitHub.
+- O código fica privado enquanto a rede arranca e é aberto no GitHub quando houver cerca de 20 LockKeepers de outras pessoas ligados.
 - **Recompensa do criador, à vista de todos:** 1% da oferta máxima (400.000 LOCK) fica na conta do criador desde o primeiro bloco, como recompensa por criar a blockchain. Além disso, o criador corre os primeiros LockKeepers desde o primeiro dia e ganha moedas como qualquer LockKeeper. Isto é dito publicamente e vê-se no explorador.
 - **Alocação génese pública de 401.000 LOCK:** 1.000 para o primeiro LockKeeper poder arrancar a rede e 400.000 (1%) para o criador. Nada mais existe no primeiro bloco.
 - **Nunca** prometer que o preço vai subir.
@@ -95,7 +95,7 @@ Contexto da pesquisa (outubro 2026):
   - **Cálculo determinístico:** os 360 valores são calculados uma única vez e gravados no código como uma tabela de números inteiros (em unidades de 10⁻⁸ LOCK). O último mês absorve a diferença de arredondamento para a soma dar exatamente 40.000.000. Nada de contas com casas decimais dentro da rede (dariam resultados diferentes em computadores diferentes).
 - **"Mês" = 30 dias contados pelo relógio da rede**, a partir do bloco génese. O orçamento de cada mês é distribuído **a cada bloco**, em partes proporcionais ao tempo decorrido.
 - **100% da emissão vai para os LockKeepers**: de hora a hora é dividida por todos os que estiveram ligados, pelas horas ligados × moedas em garantia (estejam ou não no grupo que assina).
-- **Teto de 5% por LockKeeper:** nenhum LockKeeper pode receber mais de 5% dos ganhos de cada hora (no grupo que assina, cada computador já vale 1 voto igual). Liga-se automaticamente quando houver **20 LockKeepers** ativos (com menos de 20 é matematicamente impossível todos ficarem em 5% ou menos). Quando o teto está ligado, a recompensa que caberia acima dos 5% é dividida pelos restantes LockKeepers na mesma hora — nada se perde nem fica por distribuir.
+- **Teto de 5% por LockKeeper:** nenhum LockKeeper pode receber mais de 5% dos ganhos de cada hora (no grupo que assina, cada computador já vale 1 voto igual, depois da fase de arranque). Liga-se automaticamente quando houver **20 LockKeepers** ativos (com menos de 20 é matematicamente impossível todos ficarem em 5% ou menos). Quando o teto está ligado, a recompensa que caberia acima dos 5% é dividida pelos restantes LockKeepers na mesma hora — nada se perde nem fica por distribuir.
   - Nota honesta: a rede não consegue saber se dois LockKeepers pertencem à mesma pessoa. O teto limita cada LockKeeper, não cada dono.
 - **Moedas de batoteiros são queimadas.** Por isso a oferta real pode ficar abaixo de 40.000.000, nunca acima.
 - **Reserva eterna dos LockKeepers (800.000 LOCK, 2%)**, para quem segura a rede ter sempre moedas novas além das fees, sem nunca passar dos 40.000.000:
@@ -112,6 +112,7 @@ Contexto da pesquisa (outubro 2026):
 - **LockKeeper** = o programa que qualquer pessoa pode descarregar e correr. Cada LockKeeper guarda os saldos de todos e os blocos recentes (os antigos apagam-se ao fim de cerca de 1 dia, para não encher o disco nem tornar o computador lento) e fala com os outros pela internet (como torrents; não há servidor central).
 - **Consenso:** finalidade imediata (BFT). Alvo: 1–2 segundos por confirmação final.
 - **Quem assina os blocos (decisão de 9 out 2026):** um grupo sorteado entre os LockKeepers ligados sem falhas há pelo menos 1 hora. Todos têm a mesma hipótese e, dentro do grupo, **cada computador vale 1 voto** (1 chip = 1 voto): a garantia conta para os ganhos, não para assinar. O grupo começa com **100** e cresce com a rede (1 lugar por cada 10 LockKeepers ligados) até **300**; mais do que isso exigiria blocos mais lentos. Troca gradual e contínua: a cada 6 minutos muda 1% dos lugares (~10% por hora), quem está há mais tempo sai primeiro, para todos terem a sua vez e a rede nunca parar. Quem do grupo deixa de assinar durante cerca de 1 minuto sai e é logo substituído por outro ligado de forma estável. Com menos LockKeepers ligados do que lugares, assinam todos. O sorteio usa o código do bloco, por isso todos os LockKeepers chegam ao mesmo grupo.
+- **Fase de arranque (decisão de 20 out 2026):** enquanto houver menos de **20 LockKeepers estáveis** (100 horas ligados nos últimos 7 dias), o computador que começou a rede assina com mais de 2/3 do poder (2n+1, sendo n os outros do grupo, cada um com 1). Assim, um computador de casa que se desliga sem aviso nunca para a rede. Os ganhos não mudam: continuam a ser divididos pelas horas ligadas × garantia. A partir de 20 LockKeepers estáveis, todos os computadores voltam sozinhos a valer o mesmo.
 - **Validadores que fazem batota perdem as moedas em garantia** (queimadas).
 - **Só computadores verdadeiros, 1 LockKeeper por computador.** O computador prova-o com o chip de segurança que traz de fábrica (TPM 2.0: AMD, Intel, Infineon, STMicro, Nuvoton, Microsoft Pluton), confirmado pelo certificado do fabricante e por um teste secreto que só o chip verdadeiro consegue responder. A rede guarda só um código tirado do chip (sem nome nem dados pessoais) e cada código só serve uma vez. Chips virtuais (servidores na nuvem, máquinas virtuais) são recusados. Quem quer 10 LockKeepers precisa de 10 computadores. Atualizações do Windows não mudam o chip.
 - **Base técnica do protótipo:** CometBFT + Cosmos SDK, linguagem Go. Continua a ser uma blockchain própria e independente. Não reinventar criptografia.
