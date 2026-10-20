@@ -27,7 +27,7 @@
 | 🛡️ **Theft gets stopped** | Second-device approval, daily limits and a *"Wasn't me"* button. |
 | 👨‍👩‍👧 **Your family inherits** | Choose your heirs inside the network. Your coins never die with you. |
 | 🏦 **Sovereign Vault** | Big savings get a 7 to 365 day delay on withdrawals, so you can cancel a theft in time. |
-| 🗳️ **1 computer = 1 vote** | Checked with the PC's security chip (TPM 2.0). Cloud servers can't take over. |
+| 🗳️ **1 computer = 1 LockKeeper** | Checked with the PC's security chip (TPM 2.0). Cloud servers can't take over. At the start, until there are 20 stable LockKeepers, the computer that started the network holds more than 2/3 of the power to sign, so a PC switched off never stops the network; then every computer counts the same. |
 | ⚛️ **Post-quantum** | Every transaction is signed twice, once with a post-quantum signature (ML-DSA, NIST standard). |
 | 📉 **Anti-inflation: 40,000,000 LOCK, never more** | 38,799,000 LOCK released over the first 30 years, halving every 5 years. Then the everlasting reserve of 800,000 LOCK: what is left halves every 30 years, so new LOCK keeps arriving in ever smaller amounts for about 1,440 years. No vote can change it. |
 
