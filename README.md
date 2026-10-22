@@ -43,7 +43,7 @@
 
 ## Community
 
-- 💬 Reddit: [r/EncryptLock](https://www.reddit.com/r/EncryptLock)
+- 💬 Reddit: [r/EncryptLockOficial](https://www.reddit.com/r/EncryptLockOficial)
 - 🗣️ BitcoinTalk: [EncryptLock announcement](https://bitcointalk.org/index.php?topic=5597333.0)
 - ❓ Questions: [GitHub Discussions](https://github.com/filipejardim/encryptlock-downloads/discussions)
 
