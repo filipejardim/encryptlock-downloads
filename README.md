@@ -39,7 +39,7 @@
 
 - **How it works, all the rules:** [White paper](white-paper.md)
 - **Privacy:** [privacy.md](privacy.md)
-- **The code:** private, to protect the project from copies. Every rule is described in the white paper.
+- **The code:** [public to verify, not to copy](https://github.com/filipejardim/encryptlock-codigo). Read it, build it, check every rule. The license is view-only: no copies, no other networks.
 
 ## Community
 
