@@ -44,7 +44,7 @@ Digital money that is fast and cheap, with no name or personal data, made for or
 - **Honest note about the start:** while there are few LockKeepers, the creator's computers receive most of the new coins. The sooner other people run LockKeepers, the fairer the distribution.
 - **The price is never promised.** LOCK's price is set only by people trading in the app.
 - **The wallet is non-custodial:** the keys stay only on the user's device. Nobody, not even the creator, can reach anyone else's coins.
-- **The code is private while the network starts** and will be published when about 20 LockKeepers of other people are running, so anyone can check that these rules are really there.
+- **The code is public to verify, not to copy** ([encryptlock-codigo](https://github.com/filipejardim/encryptlock-codigo)): anyone can read it, build it and check that these rules are really there. Its license is view-only and has no end date: nobody may copy it, change it or launch another network or coin with it.
 
 ---
 
@@ -108,7 +108,7 @@ A LockKeeper must never fill people's disk or slow their computer:
 
 ### 5.8 Golden rules and updates
 - **Golden rules (never change):** the 40,000,000 supply, the release curve and the everlasting reserve, nobody can freeze or take another person's coins, acceptance within 1 hour with automatic return, the fee split.
-- Anyone could copy the code and start *another* network with different rules; that cannot be prevented. What protects the golden rules is that EncryptLock's LockKeepers refuse versions that change them. Every official version carries tests that fail if a golden rule changes.
+- The code's license forbids copying it, but a copy could still be made against the law and used to start *another* network with different rules. What protects the golden rules is that EncryptLock's LockKeepers refuse versions that change them. Every official version carries tests that fail if a golden rule changes.
 - **Updates:** bug and security fixes come as new versions. Each LockKeeper decides whether to install. There is no vote and no owner.
 
 ---
